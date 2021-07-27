@@ -1,0 +1,160 @@
+header h1,
+h2,
+footer,
+.filler-sentence {
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Inknut Antiqua', serif;
+}
+
+header {
+    top: 75px;
+    position: relative;
+    margin-bottom: 200px;
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -140px;
+}
+
+h1 {
+    font-size: 85px;
+    line-height: 130%;
+    margin-top: 100px;
+}
+
+h1,
+h2 {
+    font-weight: normal;
+}
+
+.intro-img {
+    box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+.filler-sentence {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+.project {
+    margin: 30 0;
+    padding: 60px;
+}
+
+.blue {
+    background-color: #DBEBF4;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 130%;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+header ul li {
+    font-size: 19px;
+}
+
+section,
+header ul li,
+nav,
+figcaption,
+footer p {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+figcaption {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #DBEBF4;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 3%;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+body,
+ul {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+img {
+    /* this limits width of the image */
+    max-width: 100%;
+    /* border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 100%; */
+}
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 30%;
+    position: relative;
+}
+
+iframe {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+}
+
+footer {
+    margin: 100px;
+    text-align: center;
+}
+
+footer h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+footer h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.right-allignment {
+    text-align: right;
+}
