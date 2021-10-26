@@ -1,7 +1,8 @@
 header h1,
 h2,
 footer,
-.filler-sentence {
+.filler-sentence,
+.about-me h2 {
     /* font-family: 'Pacifico', cursive; */
     /* font-family: 'Caveat', cursive; */
     font-family: 'Inknut Antiqua', serif;
@@ -201,4 +202,37 @@ footer h2 {
 
 .right-allignment {
     text-align: right;
+}
+
+
+/* Style sheet for "5 things about me" starts here */
+
+.header-intro .container {
+    padding-top: 100px;
+}
+
+.header-intro h1 {
+    margin-right: 0%;
+    margin-top: 15%;
+    padding-top: 0px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 120px;
+    margin-bottom: 20%;
+}
+
+.header-intro {
+    margin: 0;
+    background-image: url('images/5_things_abt_me.png');
+    background-size: 20% auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.about-me {
+    margin: 5%;
+}
+
+.about-me h2 {
+    margin-top: 10%;
 }
