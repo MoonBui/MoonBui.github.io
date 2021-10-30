@@ -196,7 +196,6 @@ footer h2 {
 }
 
 .header-intro {
-    display: inline-block;
     margin: 0;
     background-image: url('images/5_things_abt_me.png');
     background-size: 20% auto;
