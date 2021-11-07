@@ -174,6 +174,16 @@ footer h2 {
     margin-bottom: 100px;
 }
 
+footer .fa {
+    font-size: 120px;
+    margin: 0.5em;
+    color: black;
+}
+
+footer .fa:hover {
+    text-decoration: none;
+}
+
 .right-allignment {
     text-align: right;
 }
