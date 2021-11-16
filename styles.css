@@ -251,3 +251,13 @@ footer .fa:hover {
 .about-me h2 {
     margin-top: 10%;
 }
+
+
+/*Preparation for fade in and slidedown*/
+
+.fade-in,
+.fade-onload {
+    opacity: 0;
+    margin-top: -50px;
+    max-width: 100%;
+}

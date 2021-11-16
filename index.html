@@ -8,7 +8,7 @@
     <title>Earth's natural satellite</title>
     <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
     <link rel="stylesheet" href="styles.css?version=1.4" type="text/css">
-    <script type="text/javascript" src="typescript.js?version=1"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
@@ -62,8 +62,8 @@
                 <!--Right column-->
                 <div class="col-sm">
                     <figure>
-                        <img src="images/headshot.jpg" alt="Moon Bui, smiling in confusion" class="intro-img rounder-border">
-                        <figcaption>One of the rare pictures where I actually look decent</figcaption>
+                        <img src="images/headshot.jpg" alt="Moon Bui, smiling in confusion" class="intro-img rounder-border fade-onload ">
+                        <figcaption class="fade-onload">One of the rare pictures where I actually look decent</figcaption>
                     </figure>
                 </div>
 
@@ -81,9 +81,8 @@
             <div class="row">
                 <div class="col-sm-7 iframe-container">
                     <figure>
-                        <iframe class="round-border" src="https://youtube.com/embed/QHlsgyNPCEE" width="600" , height="400">
+                        <iframe class="round-border fade-in" src="https://youtube.com/embed/QHlsgyNPCEE" width="600" , height="400">
                         </iframe>
-                        <figcaption class="youtube-vid">Highschool's Moon's many sleepless nights</figcaption>
                     </figure>
                 </div>
 
@@ -111,8 +110,8 @@
                 </div>
                 <div class="col-sm-7">
                     <figure>
-                        <img src="images/ichigo ichie.jpg" alt="Japanese-Vietnamese festival organizers" class="round-border">
-                        <figcaption>Ichigo Ichie organization team</figcaption>
+                        <img src="images/ichigo ichie.jpg" alt="Japanese-Vietnamese festival organizers" class="round-border fade-in">
+                        <figcaption class="fade-in">Ichigo Ichie organization team</figcaption>
                     </figure>
                 </div>
             </div>
@@ -125,8 +124,8 @@
             <div class="row">
                 <div class="col-sm-7">
                     <figure>
-                        <img src="images/peer mentors.jpg" alt="peer mentors together" class="round-border">
-                        <figcaption>Miami summer leadership academy</figcaption>
+                        <img src="images/peer mentors.jpg" alt="peer mentors together" class="round-border fade-in ">
+                        <figcaption class="fade-in">Miami summer leadership academy</figcaption>
                     </figure>
                 </div>
 
@@ -145,7 +144,7 @@
 
     <!--Footer-->
     <footer>
-        <h2>
+        <h2 class="fade-in">
             Interested? Connect me on any socials! (I never say no to food)
         </h2>
         <a href="https://github.com/MoonBui" target="_blank"> <i class="fa fa-github hvr-grow"></i> </a>
@@ -153,6 +152,7 @@
 
         <p>designed & developed by Moon Bui 2021</p>
     </footer>
+    <script type="text/javascript" src="typescript.js?version=1.2"></script>
 </body>
 
 </html>
