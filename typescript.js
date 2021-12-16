@@ -45,3 +45,20 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+// code to submit form
+
+document.querySelector("form").addEventListener("submit", handleSubmit);
+
+const handleSubmit = (e) => {
+    e.preventDefault();
+    let myForm = document.getElementById("contacts");
+    let formData = new FormData(myForm);
+    let formData = new FormData(myForm)
+    fetch('/', {
+        method: 'POST',
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString()
+    }).then(() => console.log('Form successfully submitted')).catch((error) =>
+        alert(error))
+}
