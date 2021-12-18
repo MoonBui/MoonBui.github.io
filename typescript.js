@@ -1,5 +1,8 @@
 // Code for fade in while scrolling
-$(document).ready(function() {
+// $(document).ready(function() {
+
+
+document.addEventListener("DOMContentLoaded", function(event) {
     $('.fade-onload-down').each(function(i) {
         $(this).animate({ 'opacity': '1', 'margin-top': '0px' }, 600);
     });
@@ -48,9 +51,9 @@ window.onclick = function(event) {
 
 // code to submit form
 
-// document.querySelector("form").addEventListener("submit", handleSubmit);
-
-// const handleSubmit = (e) => {
+// submitButton.addEventListener("click", handleSubmit);
+// var submitButton = document.getElementById("form-btn");
+// handleSubmit.onclick = function(e) {
 //     e.preventDefault();
 //     let myForm = document.getElementById("contacts");
 //     let formData = new FormData(myForm);
