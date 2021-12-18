@@ -135,6 +135,38 @@
         <p>designed & developed by Moon Bui 2021</p>
     </footer>
 
+    <!-- Modal content -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header" id="modal-header">
+                <h2 class="modal-title">Let's talk!</h2>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body container">
+                <form id="contacts" name="contacts" method="POST" data-netlify="true">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" name="name" id="name" class="sameline-input" placeholder="Enter your lovely name">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" id="email" class="sameline-input" placeholder="lovelyEmail@gmail.com">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <textarea name="message" id="message" placeholder="What would you like to talk about?"></textarea><br>
+                    </div>
+                    <div class="row">
+                        <p>Or shoot me a message at (513) 510 1947!</p> <br>
+                    </div>
+                    <div id="row-btn" class="row">
+                        <button id="form-btn" type="submit" onclick="preventDefault()" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <!-- <script src="typescript.js"></script> -->
 </body>
 
